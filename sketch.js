@@ -8,24 +8,24 @@ var edges
 
 function preload(){
 runningMan =loadAnimation(
-  "pictures/PC1.png", "pictures/PC2.png", "pictures/PC3.png", "pictures/PC4.png"
+  "PC1.png", "PC2.png", "PC3.png", "PC4.png"
 )
 
 runningZombie =loadAnimation(
-  "pictures/RedStick1.png", "pictures/RedStick2.png", "pictures/RedStick3.png", "pictures/RedStick4.png"
+  "RedStick1.png", "RedStick2.png", "RedStick3.png", "RedStick4.png"
 )
 
 backgroundImage = loadAnimation(
-  "pictures/backgroundImage.jpeg"
+  "backgroundImage.jpeg"
 )
 helicopterImage = loadAnimation(
-  "pictures/Helicopter.png"
+  "Helicopter.png"
 )
 crateImage = loadAnimation(
-  "pictures/Crate.png"
+  "Crate.png"
 )
 GameTent = loadAnimation(
-  "pictures/GameTent1.png"
+  "GameTent1.png"
 )
 
 }
